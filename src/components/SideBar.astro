@@ -2,6 +2,7 @@
 import SideBarFooter from "./SideBarFooter.astro";
 import { Image } from "astro:assets";
 import SideBarMenu from "./SideBarMenu.astro";
+import HeadShot from "public/headshot.jpeg";
 const { sideBarActiveItemID } = Astro.props;
 ---
 
@@ -21,7 +22,7 @@ const { sideBarActiveItemID } = Astro.props;
               format="jpg"
               width={300}
               height={300}
-              src="/headshot.jpg"
+              src={HeadShot}
               alt="Profile image"
             />
           </div>
