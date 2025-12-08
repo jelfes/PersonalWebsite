@@ -1,7 +1,7 @@
 ---
 import Mail from "public/mail.svg";
 import orcid from "public/orcid.png";
-import Twitter from "public/twitter.png";
+import GScholar from "public/google_scholar.svg";
 import LinkedIn from "public/linkedin.png";
 
 import { Image } from "astro:assets";
@@ -45,13 +45,19 @@ import { Image } from "astro:assets";
         </svg>
     </a>
     <a
-        href="https://twitter.com/janelfes"
+        href="https://scholar.google.com/citations?user=K1zlHbkAAAAJ&hl=en&oi=ao"
         target="_blank"
         class="mx-3"
-        aria-label="Twitter"
-        title="Twitter"
+        aria-label="Google Scholar"
+        title="Google Scholar"
     >
-        <Image src={Twitter} format="png" alt="ORCID" width={24} height={24} />
+        <Image
+            src={GScholar}
+            format="svg"
+            alt="Google Scholar"
+            width={24}
+            height={24}
+        />
     </a>
     <a
         href="https://www.linkedin.com/in/jan-elfes-755047247/"
@@ -60,7 +66,13 @@ import { Image } from "astro:assets";
         aria-label="Linkedin"
         title="Linkedin"
     >
-        <Image src={LinkedIn} format="png" alt="ORCID" width={24} height={24} />
+        <Image
+            src={LinkedIn}
+            format="png"
+            alt="LinkedIn"
+            width={24}
+            height={24}
+        />
     </a>
     <a
         href="mailto:jan.elfes@ucd.com"
@@ -69,7 +81,7 @@ import { Image } from "astro:assets";
         aria-label="Email"
         title="Email"
     >
-        <Image src={Mail} format="svg" alt="ORCID" width={24} height={23} />
+        <Image src={Mail} format="svg" alt="EMail" width={24} height={23} />
     </a>
 
     <!-- <a
