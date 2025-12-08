@@ -6,7 +6,7 @@ import createSlug from "../../lib/createSlug";
 
 export async function getStaticPaths({ paginate }) {
   const posts = await getCollection("publications");
-  posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  posts.sort((a, b) => b.data.pubNumber.valueOf() - a.data.pubNumber.valueOf());
   return paginate(posts, { pageSize: 10 });
 }
 
@@ -32,6 +32,7 @@ const { page } = Astro.props;
               title={post.data.title}
               abstract={post.data.abstract}
               authors={post.data.authors}
+              year={post.data.year}
               url={post.data.url}
               target="_self"
               badge={post.data.badge}

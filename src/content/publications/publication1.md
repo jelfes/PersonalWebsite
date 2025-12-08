@@ -1,8 +1,10 @@
 ---
-title: "Mapping News Narratives Using LLMs and Narrative-Structured Text Embeddings"
-authors: "Jan Elfes"
-abstract: "Given the profound impact of narratives across various societal levels, from personal identities to international politics, it is crucial to understand their distribution and development over time. This is particularly important in online spaces. On the Web, narratives can spread rapidly and intensify societal divides and conflicts. While many qualitative approaches exist, quantifying narratives remains a significant challenge. Computational narrative analysis lacks frameworks that are both comprehensive and generalizable. To address this gap, we introduce a numerical narrative representation grounded in structuralist linguistic theory. Chiefly, Greimas' Actantial Model represents a narrative through a constellation of six functional character roles. These so-called actants are genre-agnostic, making the model highly generalizable. We extract the actants using an open-source LLM and integrate them into a Narrative-Structured Text Embedding that captures both the semantics and narrative structure of a text. We demonstrate the analytical insights of the method on the example of 5000 full-text news articles from Al Jazeera and The Washington Post on the Israel-Palestine conflict. Our method successfully distinguishes articles that cover the same topics but differ in narrative structure."
-pubDate: "May 20 2025"
-tags: ["WebSci '25"]
-url: "https://doi.org/10.1145/3717867.3717868"
+title: "The Life with Corona survey"
+authors: "Wolfgang Stojetz, Neil T.N. Ferguson, Ghassan Baliki, Oscar Díaz, Jan Elfes, Damir Esenaliev, Hanna Freudenreich, Anke Koebach, Liliana Abreu, Laura Peitz, Ani Todua, Monika Schreiner, Anke Hoeffler, Patrícia Justino, and Tilman Brück"
+year: "2022"
+abstract: "The COVID-19 pandemic is a global crisis affecting everyone. Yet, its challenges and countermeasures vary significantly over time and space. Individual experiences of the pandemic are highly heterogeneous and its impacts span and interlink multiple dimensions, such as health, economic, social and political impacts. Therefore, there is a need to disaggregate “the pandemic”: analysing experiences, behaviours and impacts at the micro level and from multiple disciplinary perspectives. Such analyses require multi-topic pan-national survey data that are collected continuously and can be matched with other datasets, such as disease statistics or information on countermeasures. To this end, we introduce a new dataset that matches these desirable properties - the Life with Corona (LwC) survey - and perform illustrative analyses to show the importance of such micro data to understand how the pandemic and its countermeasures shape lives and societies over time."
+pubDate: "2022-08-01"
+pubNumber: "1"
+tags: ["Social Science & Medicine"]
+url: "https://doi.org/10.1016/j.socscimed.2022.115109"
 ---

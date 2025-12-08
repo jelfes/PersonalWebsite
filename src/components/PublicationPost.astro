@@ -1,5 +1,13 @@
 ---
-const { title, authors, abstract, url, tags, target = "_blank" } = Astro.props;
+const {
+    title,
+    authors,
+    year,
+    abstract,
+    url,
+    tags,
+    target = "_blank",
+} = Astro.props;
 import { Image } from "astro:assets";
 const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
 ---
@@ -13,7 +21,7 @@ const tag_url = url.split("/").slice(0, -1).join("/") + "/tag";
                 <h1 class="text-xl font-bold">
                     {title}
                 </h1>
-                <p class="py-1 text-1xl"><i>{authors}</i></p>
+                <p class="py-1 text-1xl"><i>{authors} ({year})</i></p>
 
                 <p class="py-1 text-1xl">{abstract}</p>
                 <div class="card-actions justify-end">
